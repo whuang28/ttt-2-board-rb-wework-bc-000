@@ -1,7 +1,8 @@
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = ["x", " ", " ", " ", " ", " ", " ", " ", " "]
+
 
 def display_board
-  puts "   |   |   "
+  puts "  #{board[0]} | #{board[1]}  |   "
   puts "---------"
   puts "   |   |   "
   puts "---------"
